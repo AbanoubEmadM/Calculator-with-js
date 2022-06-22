@@ -13,13 +13,14 @@ allNums.forEach(num =>{
                 }
             break;
             case 'C':
-                answer.innerHTML = ''
+                answer.innerHTML = 0;
                 break;
             case 'back':
                 answer.innerHTML = answer.textContent.slice(0,answer.textContent.length-1);
                 break;
             default: 
-                answer.innerHTML += convNum;
-            }
+            answer.innerHTML += convNum;
+        }
+
     })
 })
