@@ -1,7 +1,5 @@
 let allNums = Array.from(document.querySelectorAll(".numbers p"))
 let answer = document.getElementById("answer");
-let numbers = Array.from(document.querySelectorAll("#num"))
-let operators = Array.from(document.querySelectorAll("#op"))
 allNums.forEach(num =>{
     num.addEventListener("click",()=>{
         convNum = num.textContent;
